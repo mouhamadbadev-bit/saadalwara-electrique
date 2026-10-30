@@ -1,3 +1,5 @@
+
+import img from "../assets/Gemini_Generated_Image_htmvj1htmvj1htmv.jpg"
 export interface ServiceDetail {
   id: string;
   title: string;
@@ -63,7 +65,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
 ];
 
 export const PORTFOLIO_DATA = [
-  { id: 1, title: "Installation TGBT - Usine", type: "Projet industriel", image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?q=80&w=800&auto=format&fit=crop" },
+  { id: 1, title: "Installation TGBT - Usine", type: "Projet industriel", image: img },
   { id: 2, title: "Éclairage LED - Bâtiment", type: "Projet tertiaire", image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" },
   { id: 3, title: "Automatisation - Ligne de production", type: "Projet industriel", image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop" },
   { id: 4, title: "Installation électrique - Villa", type: "Projet résidentiel", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
